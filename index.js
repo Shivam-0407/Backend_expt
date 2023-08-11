@@ -2,7 +2,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const mongoose = require('mongoose');
 const User = require('./models/Users');
 
-const mongoURI = `mongodb+srv://shivamt0407:2tm7i6o1AxhJ3NTb@cluster0.k3f3bi3.mongodb.net/?retryWrites=true&w=majority`;
+const mongoURI = `mongodb+srv://<username>:<password>@cluster0.k3f3bi3.mongodb.net/?retryWrites=true&w=majority`;
 
 const client = new MongoClient(mongoURI, {
     serverApi: {
